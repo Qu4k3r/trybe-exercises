@@ -7,7 +7,7 @@ This repository contains almost all learning activities developed by *[Lucas Nev
 The program has more than **1,500 hours** of classroom and online classes and covers front-end, back-end, computer science, software engineering, agile methodologies, and soft skills.
 
 ## How to read the content of this repository: 
-Every module contains **blocks** and every block contain **exercises**; these exercises are organized by days. Here is an example:
+Every module contains **blocks** and every block contains **exercises**; these exercises are organized by days. Here is an example:
 
 Introduction-WebDevelopment/block-02/2.1/tryber.js --> here you can find the exercise(s) of day 1 of the **first** day of **block** 2. Confusing? I'll try to explain one more time but in a different way:
 
