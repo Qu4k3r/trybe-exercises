@@ -11,9 +11,9 @@ Every module contains **blocks** and every block contain **exercises**; these ex
 
 Introduction-WebDevelopment/block-02/2.1/tryber.js --> here you can find the exercise(s) of day 1 of the **first** day of **block** 2. Confusing? I'll try to explain one more time but in a different way:
 
-#### 2.1 --> refers to block **2** day **1**
+2.1 --> refers to block **2** day **1**
 
-#### Do you get it now? If the answer is **NO**, take a look at the *to-do* list below!
+Do you get it now? If the answer is **NO**, take a look at the *to-do* list below!
 
 ## Introduction - Web Development :hourglass_flowing_sand:
 ##### Block 1: Unix, Bash & Shell Script
