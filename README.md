@@ -25,5 +25,6 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 2.3: *Internet - Understanding how it works*
 ##### Block 3: Introduction to HTML & CSS
 - [x] 3.1: *HTML & CSS - Page structures*
+- [x] 3.2: *HTML & CSS - Getting Started with CSS*
 
 # [...]
