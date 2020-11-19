@@ -1,0 +1,31 @@
+h1 {
+    color: orange;
+    font-family: sans-serif, Arial, Helvetica; /*Arial and Helvetica are like a backup plan*/
+    font-size: 3em; /*it means: headers type 1 are 3x bigger than body font-size*/
+}
+
+h3 {
+    color: royalblue;
+    font-size: 1.5em; /*See h1 font-size*/
+}
+
+p {
+    font-weight: 600; /*defines how thick the text is gonna be*/
+}
+
+body {
+    background-color: papayawhip;
+    font-size: 20px; 
+}
+
+/*REMEMBER: "." refers to classes and "#" refers to ID's
+PS.: some attributes may not work because there's a link reference for each item list 
+*/
+.list-style {
+    background-color: plum;
+    color: seagreen;
+    font-style: italic; /*self-explained*/
+    text-align: center; /*other options: right, left, justify*/
+    line-height: 40px; /*defines the vertical space between itens list*/
+    text-decoration: underline;
+}
