@@ -1,0 +1,123 @@
+body {
+    font-family: Poppins, sans-serif;
+    background: rgb(243, 213, 166);
+}
+
+p {
+    padding: 20px;
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+h1, h2, h3, h4 {
+    padding-left:10px ;
+    padding-top: 15px;
+}
+
+header {
+    border-radius: 7px;
+    background-color: green;
+    margin: 0;
+}
+
+table th {
+    padding-left:15px ;
+    padding-right: 15px;
+    text-align: left;
+}
+
+nav ul {
+    background-color: dodgerblue;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+
+a {
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+article {
+    border-radius: 7px;
+    background-color:orange;
+    float: left;
+    width: 70%;
+    margin: 10px 0;
+}
+
+aside {
+    border-radius: 7px;
+    background-color: rgb(0, 255, 98);
+    float: right;
+    height: 200px;
+    width: 28%;
+    margin: 10px 0;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+section {
+    border-radius: 7px;
+    margin-bottom: 5px;
+    width: 95%;
+    background-color: darkgrey;
+}
+
+footer {
+    border-radius: 7px;
+    background-color: darksalmon;
+    display: block;
+    width: 100%;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+.video {
+    background-color:firebrick;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.video:hover {
+    webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+    display: inline-block;
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+    background-color: darkgrey;
+}
+
+#contact {
+    border-radius: 10px;
+    padding: 1px 1px;
+    background-color: pink;
+}
+
+#contact:hover {
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 10px 12px;
+    background-color: blue;
+    color: orange;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+nav li:hover {
+    color: white;
+    background-color: darkblue;
+    border-radius: 5px;
+    transition: 0.5s;
+    transform: scale(1.2, 1.2);
+}
+
