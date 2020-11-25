@@ -30,7 +30,7 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 3.4: *Semantic HTML*
 - [x] 3.5: *[Project - Lessons learned](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/lessons-learned)*
 #### Block 4: Introduction - JavaScript & Programming Logic
-- [ ] 4.1: *JavaScript - Getting Started*
+- [x] 4.1: *JavaScript - Getting Started*
 - [ ] 4-2: *JavaScript - Array & For Loop*
 - [ ] 4-3: *JavaScript - Programming Logic and Algorithms*
 - [ ] 4-4: *JavaScript - Objects and functions*
