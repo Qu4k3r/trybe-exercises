@@ -34,7 +34,7 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 4.2: *JavaScript - Array & For Loop*
 - [x] 4.3: *JavaScript - Programming Logic and Algorithms*
 - [x] 4.4: *JavaScript - Objects and functions*
-- [x] 4.5: *Project - Playground Functions*
+- [ ] 4.5: *Project - Playground Functions*
 #### Block 5: JavaScript: DOM, Events & Web Storage
 - [ ] 5.1: *JavaScript - DOM & Selectors*
 - [ ] 5.2: *JavaScript - Working with elements*
