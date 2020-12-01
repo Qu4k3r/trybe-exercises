@@ -15,7 +15,7 @@ Introduction-WebDevelopment/block-02/2.1/tryber.js --> here you can find the exe
 
 Do you get it now? If the answer is **NO**, take a look at the *to-do* list below!
 
-## Introduction - Web Development :heavy_check_mark:
+## Introduction - Web Development :hourglass_flowing_sand:
 ##### Block 1: Unix, Bash & Shell Script
 - [x] 1.3: *Unix & Bash - Part 1*
 - [x] 1.4: *Unix & Bash - Part 2*
@@ -31,9 +31,16 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 3.5: *[Project - Lessons learned](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/lessons-learned)*
 #### Block 4: Introduction - JavaScript & Programming Logic
 - [x] 4.1: *JavaScript - Getting Started*
-- [ ] 4-2: *JavaScript - Array & For Loop*
-- [ ] 4-3: *JavaScript - Programming Logic and Algorithms*
-- [ ] 4-4: *JavaScript - Objects and functions*
-- [ ] 4-5: *JavaScript - Playground Functions*
+- [x] 4.2: *JavaScript - Array & For Loop*
+- [x] 4.3: *JavaScript - Programming Logic and Algorithms*
+- [x] 4.4: *JavaScript - Objects and functions*
+- [x] 4.5: *Project - Playground Functions*
+#### Block 5: JavaScript: DOM, Events & Web Storage
+- [ ] 5.1: *JavaScript - DOM & Selectors*
+- [ ] 5.2: *JavaScript - Working with elements*
+- [ ] 5.3: *JavaScript - Events*
+- [ ] 5.4: *JavaScript - Web Storage*
+- [ ] 5.5: *Project - Art with Pixels*
+- [ ] 5.6: *Project - To do list*
 
 # [...]
