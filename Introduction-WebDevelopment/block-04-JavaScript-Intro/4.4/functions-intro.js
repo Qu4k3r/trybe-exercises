@@ -17,19 +17,40 @@ console.log(isPalindome('12321'))
 
 // Exercise 2
 myArray = [2, 3, 6, 7, 10, 1]
-function indexOfBiggestValue(list) {
-  let biggest = Number()
+
+function indexOfGreatestValue(list) {
+  let greatest = Number()
   for (let i = 0; i < list.length; i++) {
     if (i === 0) {
-      biggest = list[i]
+      greatest = list[i]
     }
     else {
-      if (list[i] > biggest) {
-        biggest = list[i]
+      if (list[i] > greatest) {
+        greatest = list[i]
       }
     }
   }
-  return list.indexOf(biggest)
+  return list.indexOf(greatest)
 }
 
-console.log(indexOfBiggestValue(myArray))
+console.log(indexOfGreatestValue(myArray))
+
+// Exercise 3
+myArray = [2, 3, 6, 7, 10, 1]
+
+function indexOfLowestValue(list) {
+  let lowest = Number()
+  for (let i = 0; i < list.length; i++) {
+    if (i === 0) {
+      lowest = list[i]
+    }
+    else {
+      if (list[i] < lowest) {
+        lowest = list[i]
+      }
+    }
+  }
+  return list.indexOf(lowest)
+}
+
+console.log(indexOfLowestValue(myArray))
