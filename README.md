@@ -34,7 +34,7 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 4.2: *JavaScript - Array & For Loop*
 - [x] 4.3: *JavaScript - Programming Logic and Algorithms*
 - [x] 4.4: *JavaScript - Objects and functions*
-- [x] 4.5: *[Project - Playground Functions](https://github.com/tryber/sd-09-project-playground-functions/pull/26)*
+- [x] 4.5: *[Project - Playground Functions](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/playground-functions)*
 #### Block 5: JavaScript: DOM, Events & Web Storage
 - [x] 5.1: *JavaScript - DOM & Selectors*
 - [ ] 5.2: *JavaScript - Working with elements*
