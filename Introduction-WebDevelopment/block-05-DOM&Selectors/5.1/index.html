@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!-- creating the squares and columns divs -->
+<div id="stack">
+	<div class="column_left"> 
+	  <div class="biggest_squares">
+      <div class="smallest_squares">	
+      
+      </div>
+    </div>
+    <div class="biggest_squares">
+      <div class="smallest_squares">
+
+      </div>
+    </div>
+   </div>
+   
+ 	<div class="column_right">
+    <div class="biggest_squares">
+      <div class="smallest_squares">
+
+      </div>
+    </div>
+    <div class="biggest_squares">
+      <div class="smallest_squares">
+
+			</div>
+    </div>
+  </div>
+</div>
+<style>
+
+
+
+#stack{
+	height:20rem;
+	width:20rem;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	align-items:center;
+	border: solid black 4px;
+}
+
+.column_left, .column_right{
+	
+    height:18rem;
+	width:8rem;
+    margin:auto;
+	display:flex;
+	flex-direction:column;
+    justify-content:space-evenly;
+    border: solid black 4px;
+    }
+.column_left>div, .column_right>div{
+	height:5rem;
+	width:5rem ;
+	display:flex;
+	align-items:center;
+    justify-content:center;
+    margin:auto;
+    border: solid black 4px;
+}  
+
+div>div>div>div{
+    height:2.5rem;
+	width:2.5rem; 
+    border: solid black 4px;
+}
+
+
+
+</style>
+<script>
+//coloque seu código aqui.
+  let stack = document.querySelector("#stack").style.background = "#fb0001"
+  let columnLeft = document.querySelector(".column_left").style.background = "#2d00ff"
+  let columnRight = document.querySelector(".column_right").style.background = "#148000"
+
+  let biggestSquaresLeftUp = document.querySelectorAll(".biggest_squares")[0].style.background = "#ee83ef"
+  let biggestSquaresLeftDown = document.querySelectorAll(".biggest_squares")[1].style.background = "#ee83ef"
+  let biggestSquaresRightUp = document.querySelectorAll(".column_right .biggest_squares")[0].style.background = "#800181"
+  let biggestSquaresRightDown = document.querySelectorAll(".column_right .biggest_squares")[1].style.background = "#800181"
+
+  let smallestSquaresLeftUp = document.querySelectorAll(".column_left .smallest_squares")[0].style.background = "#fdc0cb"
+  let smallestSquaresLeftDown = document.querySelectorAll(".column_left .smallest_squares")[1].style.background = "#fca600"
+  let smallestSquaresRightUp = document.querySelectorAll(".column_right .smallest_squares")[0].style.background = "#fdc0cb"
+  let smallestSquaresRightDown = document.querySelectorAll(".column_right .smallest_squares")[1].style.background = "#fca600"
+
+</script>
+</body>
+</html>
