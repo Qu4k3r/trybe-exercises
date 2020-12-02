@@ -1,0 +1,2 @@
+#### Block 04 Day 4 --> Ojects & Functions (Intro)
+### Getting Started on JS functions and objects | Using `for/in` command & learnig how to manipulate objects and how to improve the code structure using functions 
