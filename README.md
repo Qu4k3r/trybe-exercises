@@ -37,8 +37,8 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 4.5: *[Project - Playground Functions](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/playground-functions)*
 #### Block 5: JavaScript: DOM, Events & Web Storage
 - [x] 5.1: *JavaScript - DOM & Selectors*
-- [ ] 5.2: *JavaScript - Working with elements*
-- [ ] 5.3: *JavaScript - Events*
+- [x] 5.2: *JavaScript - Working with elements*
+- [x] 5.3: *JavaScript - Events*
 - [ ] 5.4: *JavaScript - Web Storage*
 - [ ] 5.5: *Project - Art with Pixels*
 - [ ] 5.6: *Project - To do list*
