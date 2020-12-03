@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="paiDoPai">
+  <div id="pai">
+    <div id="primeiroFilho"></div>
+    <div id="elementoOndeVoceEsta">
+      <div id="primeiroFilhoDoFilho"></div>
+      <div id="segundoEUltimoFilhoDoFilho"></div>
+    </div>
+    Atenção!
+    <div id="terceiroFilho"></div>
+    <div id="quartoEUltimoFilho"></div>
+  </div>
+</div>
+</body>
+
+<script>
+  let ondeVoceEsta = document.getElementById("elementoOndeVoceEsta")
+  let pai = ondeVoceEsta.parentNode
+  pai.style.background = "#fdadec"
+  let primeiroFilhoDoFilho = document.getElementById("primeiroFilhoDoFilho")
+  primeiroFilhoDoFilho.innerText = "Ola, tudo bem?"
+  let primeiroFilho = document.getElementById("pai").firstElementChild
+  let atencao = ondeVoceEsta.nextSibling
+  let terceiroFilho = ondeVoceEsta.nextElementSibling
+  terceiroFilho = pai.childNodes[5]
+
+</script>
+
+</html>
