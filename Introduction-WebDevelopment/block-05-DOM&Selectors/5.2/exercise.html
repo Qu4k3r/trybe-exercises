@@ -94,6 +94,18 @@
       image.className = "small-image"
       divLeftContent.appendChild(image)
 
+      // Exercise 8
+      let oneToTen = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
+      let unorderedList = document.createElement("ul")
+
+      for (let element of oneToTen) {
+        let listItem = document.createElement("li")
+        listItem.innerText = element
+        unorderedList.appendChild(listItem)
+      }
+
+      divRightContent.appendChild(unorderedList)
+      
     </script>
   </body>
 </html>
