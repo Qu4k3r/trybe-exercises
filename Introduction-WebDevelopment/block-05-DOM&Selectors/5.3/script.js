@@ -73,3 +73,13 @@ function showHolidays() {
 }
 
 showHolidays()
+
+// Exercise 4
+function setFridayButton(friday) {
+  let fridayButton = document.createElement('button')
+  fridayButton.id = 'btn-friday'
+  fridayButton.innerText = friday
+  document.querySelector('.buttons-container').appendChild(fridayButton)
+}
+
+setFridayButton('Sexta-feira')
