@@ -56,3 +56,21 @@ function createHolidayButton(feriados) {
 }
 
 createHolidayButton('Feriados')
+
+// Exercise 3
+function setColor(day) {
+  if (day.style.background === 'red') {
+    return day.style.background = 'rgb(238, 238, 238)'
+  }
+  return day.style.background = 'red'
+}
+function showHolidays() {
+  holidayButton.addEventListener('click', () => {
+  let holidayDays = document.querySelectorAll('.holiday')
+  for (let day of holidayDays) {
+    setColor(day)
+  }
+})
+}
+
+showHolidays()
