@@ -38,7 +38,7 @@ function createDaysOfTheCalendar() {
   for (let day of dezDaysList) {
     const dayNumber = document.createElement('li')
     setClasses(day, dayNumber)
-    dayNumber.innerHTML = day
+    dayNumber.innerText = day
     daysList.appendChild(dayNumber)
   }
 }
@@ -74,3 +74,5 @@ function showHolidays() {
 }
 
 showHolidays()
+
+// Exercise 4
