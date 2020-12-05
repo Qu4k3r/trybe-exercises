@@ -70,7 +70,7 @@ function showHolidays() {
   for (let day of holidayDays) {
     setColor(day)
   }
-})
+  })
 }
 
 showHolidays()
