@@ -134,3 +134,13 @@ function addTasks(taskName) {
 }
 
 addTasks('cozinhar')
+
+// Exercise 8
+function addColor(color) {
+  const divElement = document.createElement('div')
+  divElement.className = 'task'
+  divElement.style.background = color
+  document.body.querySelector('.my-tasks').appendChild(divElement)
+}
+
+addColor('lightgreen')
