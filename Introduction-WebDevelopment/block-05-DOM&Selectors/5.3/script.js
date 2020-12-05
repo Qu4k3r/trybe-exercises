@@ -44,3 +44,14 @@ function createDaysOfTheCalendar() {
 }
 
 createDaysOfTheCalendar()
+
+// Exercise 2
+function createHolidayButton(feriados) {
+  let holidayButton = document.createElement('button')
+  holidayButton.id = 'btn-holiday'
+  let buttonsContainer = document.getElementsByClassName('buttons-container')[0]
+  buttonsContainer.appendChild(holidayButton)
+
+}
+
+createHolidayButton()
