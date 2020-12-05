@@ -65,10 +65,10 @@ function setColor(day) {
 }
 function showHolidays() {
   holidayButton.addEventListener('click', () => {
-  let holidayDays = document.querySelectorAll('.holiday')
-  for (let day of holidayDays) {
-    setColor(day)
-  }
+    let holidayDays = document.querySelectorAll('.holiday')
+    for (let day of holidayDays) {
+      setColor(day)
+    }
   })
 }
 
@@ -83,3 +83,24 @@ function setFridayButton(friday) {
 }
 
 setFridayButton('Sexta-feira')
+
+// Exercise 5
+function setFridays(isFriday, array) {
+  const fridays = [4, 11, 18, 25]
+  if (array[isFriday].innerText === 'Sextou meu povo!') {
+    return array[isFriday].innerText = fridays[isFriday]
+  }
+  return array[isFriday].innerText = 'Sextou meu povo!'
+}
+
+function trulyShowsFridays(fridaysArray) {
+  const fridayButton = document.querySelector('#btn-friday')
+  const fridaysDay = document.getElementsByClassName('day friday')
+  fridayButton.addEventListener('click', () => {
+    for (let day = 0; day < fridaysDay.length; day += 1) {
+      setFridays(day, fridaysDay)
+    }
+  })
+}
+const dezFridays = [4, 11, 18, 25]
+trulyShowsFridays(dezFridays)
