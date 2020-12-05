@@ -125,3 +125,12 @@ function dayMouseOut() {
 
 dayMouseOver()
 dayMouseOut()
+
+// Exercise 7
+function addTasks(taskName) {
+  const task = document.createElement('span')
+  task.innerText = taskName
+  document.body.querySelector('.my-tasks').appendChild(task)
+}
+
+addTasks('cozinhar')
