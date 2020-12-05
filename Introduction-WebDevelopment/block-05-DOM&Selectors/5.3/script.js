@@ -52,7 +52,6 @@ function createHolidayButton(feriados) {
   let buttonsContainer = document.getElementsByClassName('buttons-container')[0]
   holidayButton.innerText = feriados
   buttonsContainer.appendChild(holidayButton)
-
 }
 
 createHolidayButton('Feriados')
@@ -74,5 +73,3 @@ function showHolidays() {
 }
 
 showHolidays()
-
-// Exercise 4
