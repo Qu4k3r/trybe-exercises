@@ -104,3 +104,14 @@ function trulyShowsFridays(fridaysArray) {
 }
 const dezFridays = [4, 11, 18, 25]
 trulyShowsFridays(dezFridays)
+
+// Exercise 6
+const daysList = document.querySelectorAll('#days li')
+for (let day of daysList) {
+  day.addEventListener('mouseover', () => {
+    return day.style.transform = 'scale(1.5)'
+  })
+  day.addEventListener('mouseout', () => {
+    return day.style.transform = 'scale(1)'
+  })
+}
