@@ -46,12 +46,13 @@ function createDaysOfTheCalendar() {
 createDaysOfTheCalendar()
 
 // Exercise 2
+let holidayButton = document.createElement('button')
 function createHolidayButton(feriados) {
-  let holidayButton = document.createElement('button')
   holidayButton.id = 'btn-holiday'
   let buttonsContainer = document.getElementsByClassName('buttons-container')[0]
+  holidayButton.innerText = feriados
   buttonsContainer.appendChild(holidayButton)
 
 }
 
-createHolidayButton()
+createHolidayButton('Feriados')
