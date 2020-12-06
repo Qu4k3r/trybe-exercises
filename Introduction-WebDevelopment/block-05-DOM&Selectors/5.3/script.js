@@ -144,3 +144,16 @@ function addColor(color) {
 }
 
 addColor('lightgreen')
+
+// Exercise 9
+function getTasksDone () {
+  const taskName = document.body.querySelector('.task')
+  taskName.addEventListener('click', () => {
+    if (taskName.className !== 'task selected') {
+      return taskName.className = 'task selected'
+    }
+    return taskName.className = 'task'
+  })
+}
+
+getTasksDone()
