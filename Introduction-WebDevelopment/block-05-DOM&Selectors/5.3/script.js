@@ -157,3 +157,18 @@ function getTasksDone () {
 }
 
 getTasksDone()
+
+// Exercise 10
+function setTaskDayWithColor () {
+  const colorTask = document.querySelector('.task').style.background
+  for (let day of daysList) {
+    day.addEventListener('click', () => {
+      if (day.style.color !== colorTask) {
+        return day.style.color = colorTask
+      }
+      return day.style.color = 'rgb(119, 119, 119)'
+    })
+  }
+}
+
+setTaskDayWithColor()
