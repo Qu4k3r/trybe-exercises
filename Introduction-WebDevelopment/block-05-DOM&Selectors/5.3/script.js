@@ -192,7 +192,7 @@ function addNewCommitment() {
       alert('ERRO! Digite um compromisso válido!')
     }
   })
-  inputLine.addEventListener('keydown', (event) => {
+  inputLine.addEventListener('keyup', (event) => {
     if(event.key === 'Enter' && inputLine.value.length > 0) {
       addParagraph(inputLine.value)
       inputLine.value = ''
