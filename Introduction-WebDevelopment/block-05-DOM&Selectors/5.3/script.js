@@ -87,10 +87,10 @@ setFridayButton('Sexta-feira')
 // Exercise 5
 function setFridays(isFriday, array) {
   const fridays = [4, 11, 18, 25]
-  if (array[isFriday].innerText === 'Sextou meu povo!') {
+  if (array[isFriday].innerText === 'Sextou, meu povo!') {
     return array[isFriday].innerText = fridays[isFriday]
   }
-  return array[isFriday].innerText = 'Sextou meu povo!'
+  return array[isFriday].innerText = 'Sextou, meu povo!'
 }
 
 function trulyShowsFridays(fridaysArray) {
@@ -175,19 +175,38 @@ setTaskDayWithColor()
 
 // Bonus
 function addParagraph(content) {
-  const paragraph = document.createElement('li')
-  paragraph.innerText = content
+  const newLi = document.createElement('li')
+  newLi.innerText = content
   const myTasks = document.querySelector('.task-list')
-  myTasks.appendChild(paragraph)
+  myTasks.appendChild(newLi)
 }
 
 function addNewCommitment() {
   const inputLine = document.querySelector('input')
   const appendingButton = document.querySelector('#btn-add')
-  inputLine.addEventListener('change', () => {
-    addParagraph(inputLine.value)
-    inputLine.value = ''
+  appendingButton.addEventListener('click', () => {
+    if (inputLine.value.length > 0) {
+      addParagraph(inputLine.value)
+      inputLine.value = ''
+    } else {
+      alert('ERRO! Digite um compromisso válido!')
+    }
+  })
+  inputLine.addEventListener('keydown', (event) => {
+    if(event.key === 'Enter' && inputLine.value.length > 0) {
+      addParagraph(inputLine.value)
+      inputLine.value = ''
+    }
+    else if(event.key === 'Enter' && inputLine.value.length <= 0) {
+      alert('ERRO! Digite um compromisso válido!')
+    }
   })
 }
 
 addNewCommitment()
+
+// the code is not in its best performance yet, for example:
+// we can't add more than one task
+// we can't get tasks done or undone
+// if we submit the input line with multiple blank spaces the alert doesn't show up (I think we need a string method to improve this part)
+// among others I don't remember ... (sorry, hehe)
