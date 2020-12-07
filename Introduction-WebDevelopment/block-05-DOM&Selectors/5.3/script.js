@@ -110,7 +110,7 @@ const daysList = document.querySelectorAll('#days li')
 function dayMouseOver() {
   for (let day of daysList) {
     day.addEventListener('mouseover', () => {
-      return day.style.transform = 'scale(1.5)'
+      return day.style.transform = 'scale(1.8)'
     })
   }
 }
@@ -172,3 +172,22 @@ function setTaskDayWithColor () {
 }
 
 setTaskDayWithColor()
+
+// Bonus
+function addParagraph(content) {
+  const paragraph = document.createElement('li')
+  paragraph.innerText = content
+  const myTasks = document.querySelector('.task-list')
+  myTasks.appendChild(paragraph)
+}
+
+function addNewCommitment() {
+  const inputLine = document.querySelector('input')
+  const appendingButton = document.querySelector('#btn-add')
+  inputLine.addEventListener('change', () => {
+    addParagraph(inputLine.value)
+    inputLine.value = ''
+  })
+}
+
+addNewCommitment()
