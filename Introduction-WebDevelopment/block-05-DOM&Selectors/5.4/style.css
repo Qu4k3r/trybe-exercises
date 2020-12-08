@@ -1,0 +1,22 @@
+section article {
+  max-width: 40%;
+  text-align: justify;
+  margin: 3% 1%;
+  float: left;
+}
+
+section aside {
+  max-width: 23%;
+  text-align: justify;
+  float: right;
+  margin: 3% 15% 3% 0;
+}
+
+p {
+  text-indent: 5%;
+}
+
+#style-div {
+  float: left;
+  max-width: 45%;
+}
