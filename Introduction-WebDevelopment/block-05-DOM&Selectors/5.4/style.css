@@ -1,7 +1,7 @@
 section article {
   max-width: 40%;
   text-align: justify;
-  margin: 3% 1%;
+  margin: 1%;
   float: left;
 }
 
@@ -9,14 +9,29 @@ section aside {
   max-width: 23%;
   text-align: justify;
   float: right;
-  margin: 3% 15% 3% 0;
+  margin: 1% 15% 3% 0;
 }
 
 p {
   text-indent: 5%;
 }
 
-#style-div {
-  float: left;
-  max-width: 45%;
+div {
+  width: 100%;
+  display: inline-block;
+  margin-left: 1%;
+}
+
+#style-section {
+  width: 100%;
+  display: inline-block;
+}
+
+button {
+  margin-left: 10px;
+}
+
+input {
+  border: 2px solid grey;
+  border-radius: 5%;
 }
