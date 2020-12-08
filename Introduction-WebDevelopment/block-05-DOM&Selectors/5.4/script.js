@@ -25,27 +25,30 @@ window.onload = function () {
   changeTextColor()
 
   // Step 3
-    function modifyTextSize() {
-      if (localStorage['fontSize']) {
-        fontSize = Number(localStorage['fontSize'])
-      } else {
-        localStorage.setItem('fontSize', 16)
-        let fontSize = localStorage.getItem('fontSize')
-      }
-      const incr = 1
-      const myIncrButton = document.querySelector('#btn-incr-text-size')
-      const myDecrButton = document.querySelector('#btn-decr-text-size')
-      myIncrButton.addEventListener('click', () => {
-        fontSize += incr
-        document.body.style.fontSize = fontSize + 'px'
-        localStorage['fontSize'] = fontSize
-      })
-      myDecrButton.addEventListener('click', () => {
-        fontSize -= incr
-        document.body.style.fontSize = fontSize + 'px'
-        localStorage['fontSize'] = fontSize
-      })
+  function modifyTextSize() {
+    let fontSize;
+    if (localStorage['fontSize']) {
+      fontSize = Number(localStorage['fontSize'])
+    } else {
+      localStorage.setItem('fontSize', 16)
+      fontSize = localStorage.getItem('fontSize')
     }
+    document.body.style.fontSize = fontSize + 'px'
 
-    modifyTextSize()
+    const incr = 1
+    const myIncrButton = document.querySelector('#btn-incr-text-size')
+    const myDecrButton = document.querySelector('#btn-decr-text-size')
+    myIncrButton.addEventListener('click', () => {
+      fontSize += incr
+      document.body.style.fontSize = fontSize + 'px'
+      localStorage['fontSize'] = fontSize
+    })
+    myDecrButton.addEventListener('click', () => {
+      fontSize -= incr
+      document.body.style.fontSize = fontSize + 'px'
+      localStorage['fontSize'] = fontSize
+    })
   }
+
+  modifyTextSize()
+}
