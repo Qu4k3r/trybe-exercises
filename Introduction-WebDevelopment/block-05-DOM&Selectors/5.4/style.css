@@ -1,3 +1,7 @@
+body {
+  font-size: 16px;
+}
+
 section article {
   max-width: 40%;
   text-align: justify;
