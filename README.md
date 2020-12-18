@@ -48,7 +48,7 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
    [*Project - Color Guess*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/color-guess)  
    [*Project - Mistery Letter*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/mistery-letter)  
 
-##### Block 6: HTML & CSS: Forms, Flexbox & Responsivo
-- [ ] 6-1: *HTML & CSS - Forms*
+#### Block 6: HTML & CSS: Forms, Flexbox & Responsivo
+- [ ] 6.1: *HTML & CSS - Forms*
 
 # [...]
