@@ -42,7 +42,7 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 5.4: *JavaScript - Web Storage*
 - [x] 5.5: [*Project - Pixels Art*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/pixels-art)
 - [x] 5.6: [*Project - To do list*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/todo-list)
-- [x] 5.7:
+- [x] 5.7: ***Bonus Projects***
 
    [*Project - Meme Generator*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/meme-generator)  
    [*Project - Color Guess*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/color-guess)  
