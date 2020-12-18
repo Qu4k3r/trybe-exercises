@@ -39,8 +39,16 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 5.1: *JavaScript - DOM & Selectors*
 - [x] 5.2: *JavaScript - Working with elements*
 - [x] 5.3: *JavaScript - Events*
-- [ ] 5.4: *JavaScript - Web Storage*
-- [ ] 5.5: *Project - Art with Pixels*
-- [ ] 5.6: *Project - To do list*
+- [x] 5.4: *JavaScript - Web Storage*
+- [x] 5.5: [*Project - Pixels Art*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/pixels-art)
+- [x] 5.6: [*Project - To do list*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/todo-list)
+- [x] 5.7:
+
+   [*Project - Meme Generator*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/meme-generator)  
+   [*Project - Color Guess*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/color-guess)  
+   [*Project - Mistery Letter*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/mistery-letter)  
+
+##### Block 6: Introduction - Front-end
+- [ ] 6-1: *HTML & CSS - Forms*
 
 # [...]
