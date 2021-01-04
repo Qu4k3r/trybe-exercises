@@ -31,7 +31,7 @@ window.onload = function () {
       fontSize = Number(localStorage['fontSize'])
     } else {
       localStorage.setItem('fontSize', 16)
-      fontSize = localStorage.getItem('fontSize')
+      fontSize = Number(localStorage['fontSize'])
     }
     document.body.style.fontSize = fontSize + 'px'
 
@@ -49,6 +49,23 @@ window.onload = function () {
       localStorage['fontSize'] = fontSize
     })
   }
-
   modifyTextSize()
+}
+
+// Step 4 - line height
+function modifyLineHeight() {
+  let lineHeight
+  if (localStorage['lineHeight']) {
+    lineHeight = Number(localStorage['lineHeight'])
+  }
+  else {
+    localStorage.setItem('lineHeight', 1)
+  }
+  document.body.style.lineHeight = localStorage['lineHeight']
+
+  const myIncrButton = document.querySelector('#btn-incr-line-height')
+  const myDecrButton = document.querySelector('#btn-decr-line-height')
+  myIncrButton.addEventListener('click', () => {
+    
+  })
 }
