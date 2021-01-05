@@ -59,13 +59,23 @@ function modifyLineHeight() {
     lineHeight = Number(localStorage['lineHeight'])
   }
   else {
-    localStorage.setItem('lineHeight', 1)
+    localStorage.setItem('lineHeight', 1.3)
+    lineHeight = Number(localStorage['lineHeight'])
   }
-  document.body.style.lineHeight = localStorage['lineHeight']
+  document.body.style.lineHeight = lineHeight
 
   const myIncrButton = document.querySelector('#btn-incr-line-height')
   const myDecrButton = document.querySelector('#btn-decr-line-height')
   myIncrButton.addEventListener('click', () => {
-    
+    lineHeight += 0.1
+    document.body.style.lineHeight = lineHeight
+    localStorage['lineHeight'] = Number(lineHeight).toFixed(2)
+  })
+  myDecrButton.addEventListener('click', () => {
+    lineHeight -= 0.1
+    document.body.style.lineHeight = lineHeight
+    localStorage['lineHeight'] = Number(lineHeight).toFixed(2)
   })
 }
+
+modifyLineHeight()
