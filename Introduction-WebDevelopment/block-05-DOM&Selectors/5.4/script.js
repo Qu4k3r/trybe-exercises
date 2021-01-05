@@ -79,3 +79,15 @@ function modifyLineHeight() {
 }
 
 modifyLineHeight()
+
+// Step 5 - font family
+function modifyFontFamily() {
+  document.body.style.fontFamily = localStorage['fontFamily'] 
+  const select = document.querySelector('select')
+  select.addEventListener('click', (event) => {
+    document.body.style.fontFamily = event.target.value
+    localStorage['fontFamily'] = document.body.style.fontFamily
+  })
+}
+
+modifyFontFamily()
