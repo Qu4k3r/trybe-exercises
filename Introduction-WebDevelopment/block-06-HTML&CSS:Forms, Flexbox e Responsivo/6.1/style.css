@@ -1,0 +1,40 @@
+input {
+  margin: 10px 0;
+}
+
+select {
+  margin: 10px 0;
+}
+
+legend {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+fieldset {
+  margin-bottom: 50px;
+}
+
+.data {
+  background-color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 15px;
+}
+
+.data#year {
+  width: 30px;
+}
+
+button {
+  padding: 5px;
+  margin-right: 10px;
+  color: white;
+  border: 2px solid black;
+  font-weight: 700;
+  background-color: black;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px 10px;
+}
