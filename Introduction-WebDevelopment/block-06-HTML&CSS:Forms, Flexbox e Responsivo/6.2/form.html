@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Block 6 | Day 1</title>
+</head>
+<style>
+  body {
+    margin: 40px;
+  }
+  /* headers */
+  h1, h2, h3, h4 {
+    margin: 5px 0 50px 5px;
+  }
+  /* label color */
+  .input-field label {
+    color: rgb(212, 34, 34);
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: rgb(103, 194, 51);
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(22, 55, 202);
+    box-shadow: 0 1px 0 0 rgb(158, 23, 23);
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid rgb(2, 189, 33);
+    box-shadow: 0 1px 0 0 rgb(243, 228, 16);
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid rgb(167, 11, 206);
+    box-shadow: 0 1px 0 0 rgb(2, 186, 241);
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #000;
+  }
+</style>
+<body>
+  <h3>Formulário</h3>
+  <div class="row">
+    <form class="col s12">
+      
+      <!-- NOME -->
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input type="text" id="nome" class="validate" maxlength="20" data-length="20" required>
+          <label for="nome">Nome:</label>
+        </div>
+        
+        <!-- SOBRENOME -->
+        <div class="input-field col s6">
+          <input type="text" id="sobrenome" class="validate" maxlength="20" data-length="20" required>
+          <label for="sobrenome">Sobrenome:</label>
+        </div>
+      </div>
+
+      <!-- E-MAIL -->
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">email</i>
+          <input type="email" name="email" id="input-email" class="validate" maxlength="50" data-length="20" required>
+          <label for="input-email">E-mail:</label>
+        </div>
+        
+        <!-- CPF -->
+        <div class="input-field col s6">
+          <i class="material-icons prefix">fingerprint</i>
+          <input type="tel" name="cpf" id="input-cpf" class="validate" maxlength="11"  data-length="20" required>
+          <label for="input-cpf">CPF:</label>
+        </div>
+      </div>
+        
+      <!-- ENDEREÇO -->
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">home</i>
+          <input type="text" name="endereco" id="input-endereco" class="validate" maxlength="200" data-length="200" required>
+          <label for="input-endereco">Endereço:</label>
+        </div>
+      </div>
+
+      <!-- CIDADE -->
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">location_city</i>
+          <input type="text" name="cidade" id="input-cidade" maxlength="28" data-length="28" required>
+          <label for="input-cidade"> Cidade: </label>
+        </div>
+        
+        <!-- ESTADO -->
+        <div class="input-field col s6">
+          <select name="estado" id="input-estado" required>
+            <option value="" disabled selected>Escolha seu estado</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Manaus</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Paraná</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+          <label for="input-estado">Estado:</label>
+        </div>
+      </div>
+    </form>
+      
+      <!-- TIPO DE MORADIA -->
+      <h4>Tipo de moradia</h4>
+      <div class="row">
+        <form action="#" style="margin: 40px 15px;">
+          <label>
+            <input type="radio" name="moradia" value="casa" required>
+            <span>Casa</span>
+          </label>
+          
+          <label>
+            <input type="radio" name="moradia" value="apartamento">
+            <span style="margin-left: 45px;">Apartamento</span> 
+          </label>
+        </form>
+      </div>
+      
+      <!-- RESUMO & CARGO -->
+      <h4>Currículo</h4>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">edit</i>
+              <textarea name="curriculo" id="curriculo" class="materialize-textarea" maxlength="1000" data-length="1000" required></textarea>
+              <label for="curriculo">Resumo</label>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="input-field col s6">
+        <i class="material-icons prefix">work</i>
+        <input type="text" name="cargo" maxlength="40" id="input-cargo" class="validate" required>
+        <label for="input-cargo">Cargo: </label>
+      </div>
+      <div class="input-field col s6">
+        <i class="material-icons prefix">today</i>
+        <input type="text" name="data" id="data" class="datepicker" required>
+        <label for="data">Data de início</label>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">chrome_reader_mode</i>
+          <input type="text" name="descricao-cargo" maxlength="500" id="input-descricao-cargo" class="validate" required>
+          <label for="input-descricao-cargo">Descrição do cargo: </label>
+        </div>
+      </div>
+        <button type="submit" name="action" id="submit-button" class="btn waves-effect waves-light">Enviar
+          <i class="material-icons right">send</i>
+        </button>
+        <button type="reset" name="action" class="btn waves-effect waves-light red" onclick="deleteResultDiv()">Limpar Formulário
+          <i class="material-icons right">clear_all</i>
+        </button>
+  </div>
+  <script src="script.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
