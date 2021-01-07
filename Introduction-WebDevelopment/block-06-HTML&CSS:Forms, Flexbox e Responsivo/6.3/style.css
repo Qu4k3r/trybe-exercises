@@ -1,0 +1,30 @@
+/* THE CLASSES, IDS AND WILDCARDS WILL BE HERE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+.header-img {
+  width: 70px;
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.elements-container {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: space-between;
+  width: 650px;
+  height: 420px;
+  margin: 110px 35px 0 0;
+}
