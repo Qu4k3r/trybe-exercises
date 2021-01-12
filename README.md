@@ -49,6 +49,10 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
    [*Project - Mistery Letter*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/mistery-letter)  
 
 #### Block 6: HTML & CSS: Forms, Flexbox & Responsivo
-- [ ] 6.1: *HTML & CSS - Forms*
+- [x] 6.1: *HTML & CSS - Forms*
+- [x] 6-2: *JavaScript libraries and CSS frameworks*
+- [x] 6-3: *CSS Flexbox - Part 1*
+- [x] 6-4: *CSS Flexbox - Part 2*
+- [ ] 6-5: *[Project - Facebook home]()*
 
 # [...]
