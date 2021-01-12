@@ -12,3 +12,25 @@ function testingScope(escopo) {
 }
 
 testingScope(false);
+
+//Exercise 2 part 1
+const factorial = (num) => {
+  for (let previousNumbers = num - 1; previousNumbers > 0; previousNumbers -= 1) {
+    num *= previousNumbers
+  }
+  return num
+}
+
+console.log(factorial(6))
+
+//Recursive way (BEAUTIFUL)
+const factorialNumber = (num) => {
+  if (num <= 1) {
+    return 1
+  }
+  else {
+    return num * factorialNumber(num - 1)
+  }
+}
+
+console.log(factorialNumber(3))
