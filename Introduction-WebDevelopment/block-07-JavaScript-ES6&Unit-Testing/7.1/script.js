@@ -14,7 +14,7 @@ function testingScope(escopo) {
 testingScope(false);
 
 //Exercise 2 part 1
-const factorial = (num) => {
+const factorial = num => {
   for (let previousNumbers = num - 1; previousNumbers > 0; previousNumbers -= 1) {
     num *= previousNumbers
   }
@@ -24,7 +24,7 @@ const factorial = (num) => {
 console.log(factorial(6))
 
 //Recursive way (BEAUTIFUL)
-const factorialNumber = (num) => {
+const factorialNumber = num => {
   if (num <= 1) {
     return 1
   }
@@ -34,3 +34,19 @@ const factorialNumber = (num) => {
 }
 
 console.log(factorialNumber(3))
+
+//Exercise 2 part 2
+const splitPhrase = phrase => phrase.split(' ')
+
+const getGreatestWord = (phrase) => {
+  let greater = '';
+  splitPhrase(phrase).forEach(word => {
+    if(word.length >= greater.length) {
+      greater = word
+    }
+  })
+  return greater
+}
+
+console.log(getGreatestWord('oh mama mia mama mia ... mama mia letmego'))
+// console.log('ola, tudo bem?'.split(' '))
