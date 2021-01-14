@@ -214,7 +214,21 @@ const countMathStudents = obj => {
 
 // Part II
 // Crie uma função que deverá retornar um objeto que representa o relatório do professor ou professora, as aulas que ele ou ela ministrou e o número total de estudantes. Use o objeto criado no exercício 5:
-// console.log(createReport(allLessons, 'Maria Clara'))
+
+const createReport = (obj, str) => {
+  let totalStudents = 0;
+  const subjectsArray = [];
+  const objValuesArray = Object.values(obj)
+  for (const i in objValuesArray) {
+    if (objValuesArray[i].professor === str) {
+      totalStudents += objValuesArray[i].numeroEstudantes;
+      subjectsArray.push(objValuesArray[i].materia);
+    }
+  }
+  const report = {professor: str, aulas: subjectsArray, estudantes: totalStudents};
+  return report;
+}
+console.log(createReport(allLessons, 'Maria Clara'));
 
 /* {
   professor: 'Maria Clara',
