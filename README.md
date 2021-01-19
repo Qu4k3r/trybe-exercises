@@ -28,31 +28,42 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 3.2: *HTML & CSS - Getting started with CSS*
 - [x] 3.3: *HTML & CSS - Selectors and positioning*
 - [x] 3.4: *Semantic HTML*
-- [x] 3.5: *[Project - Lessons learned](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/lessons-learned)*
+- [x] 3.5: [*Project - Lessons learned*](https://github.com/tryber/sd-09-project-lessons-learned/pull/69)
 #### Block 4: Introduction - JavaScript & Programming Logic
 - [x] 4.1: *JavaScript - Getting Started*
 - [x] 4.2: *JavaScript - Array & For Loop*
 - [x] 4.3: *JavaScript - Programming Logic and Algorithms*
 - [x] 4.4: *JavaScript - Objects and functions*
-- [x] 4.5: *[Project - Playground Functions](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/playground-functions)*
+- [x] 4.5: [*Project - Playground Functions*](https://github.com/tryber/sd-09-project-playground-functions/pull/26)
 #### Block 5: JavaScript: DOM, Events & Web Storage
 - [x] 5.1: *JavaScript - DOM & Selectors*
 - [x] 5.2: *JavaScript - Working with elements*
 - [x] 5.3: *JavaScript - Events*
 - [x] 5.4: *JavaScript - Web Storage*
-- [x] 5.5: [*Project - Pixels Art*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/pixels-art)
-- [x] 5.6: [*Project - To do list*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/todo-list)
+- [x] 5.5: [*Project - Pixels Art*](https://github.com/tryber/sd-09-project-pixels-art/pull/27)
+- [x] 5.6: [*Project - To do list*](https://github.com/tryber/sd-09-project-todo-list/pull/17)
 - [x] 5.7: ***Bonus Projects***
 
-   [*Project - Meme Generator*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/meme-generator)  
-   [*Project - Color Guess*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/color-guess)  
-   [*Project - Mistery Letter*](https://github.com/Qu4k3r/trybe-projects/tree/master/Introduction/mistery-letter)  
+   [*Project - Meme Generator*](https://github.com/tryber/sd-09-project-meme-generator/pull/22)  
+   [*Project - Color Guess*](https://github.com/tryber/sd-09-project-color-guess/pull/9)  
+   [*Project - Mistery Letter*](https://github.com/tryber/sd-09-project-mistery-letter/pull/7)  
 
 #### Block 6: HTML & CSS: Forms, Flexbox & Responsivo
 - [x] 6.1: *HTML & CSS - Forms*
 - [x] 6-2: *JavaScript libraries and CSS frameworks*
 - [x] 6-3: *CSS Flexbox - Part 1*
 - [x] 6-4: *CSS Flexbox - Part 2*
-- [ ] 6-5: *[Project - Facebook home]()*
+- [x] 6-5: [*Project - Facebook home*](https://github.com/tryber/sd-09-project-facebook-signup/pull/24)
+
+##### Block 7: JavaScript ES6 & Unit Tests
+- [x] 7-1: *JavaScript ES6 - let, const, arrow functions and template literals*
+- [x] 7-2: *JavaScript ES6 - Objects*
+- [x] 7-3: *JavaScript unit tests*
+- [x] 7-4: *Testing in small steps*
+- [x] 7-5: [*Project - JavaScript Unit Tests*](https://github.com/tryber/sd-09-project-js-unit-tests/pull/70)
+##### Block 8: JavaScript ES6
+- [x] 8-1: *JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort*
+- [ ] 8-2: *JavaScript ES6 - Higher Order Functions - map and reduce*
+- [ ] 8-3: *JavaScript ES6 - spread operator, rest parameter, destructuring and more*
 
 # [...]
