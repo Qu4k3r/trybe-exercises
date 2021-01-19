@@ -69,11 +69,7 @@ const expectedResult = false;
 function authorUnique() {
   // escreva seu código aqui
   let uniqueAuthor = true;
-  books.sort( (element, nextElement) => {
-    if (element.author.birthYear - nextElement.author.birthYear === 0) {
-      uniqueAuthor = false;
-    }
-  });
+  books.sort( (element, nextElement) => element.author.birthYear === nextElement.author.birthYear ? uniqueAuthor = false : undefined);
   return uniqueAuthor;
 };
 
