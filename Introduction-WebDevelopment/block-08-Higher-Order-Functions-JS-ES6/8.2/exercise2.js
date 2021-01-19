@@ -94,12 +94,9 @@ function nameAndAge() {
   // escreva seu código aqui
   // return books.map(element => (
   //   { age: element.releaseYear - element.author.birthYear, author: element.author.name }
-  // )).sort ((firstKey, secondKey) => {
-  //   return firstKey.age - secondKey.age;
-  // });
+  // )).sort((firstKey, secondKey) => firstKey.age - secondKey.age);
 
-  let myNewBookArray = [];
-  myNewBookArray = books.map(element => ({ age: element.releaseYear - element.author.birthYear, author: element.author.name }));
+  let myNewBookArray = books.map(element => ({ age: element.releaseYear - element.author.birthYear, author: element.author.name }));
   return myNewBookArray.sort((firstKeyValue, secondKeyValue) => firstKeyValue.age - secondKeyValue.age);
 }
 
