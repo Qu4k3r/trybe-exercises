@@ -50,20 +50,20 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 
 #### Block 6: HTML & CSS: Forms, Flexbox & Responsivo
 - [x] 6.1: *HTML & CSS - Forms*
-- [x] 6-2: *JavaScript libraries and CSS frameworks*
+- [x] 6-2: *JavaScript libraries & CSS frameworks*
 - [x] 6-3: *CSS Flexbox - Part 1*
 - [x] 6-4: *CSS Flexbox - Part 2*
-- [x] 6-5: [*Project - Facebook home*](https://github.com/tryber/sd-09-project-facebook-signup/pull/24)
+- [x] 6-5: [*Project - Facebook signup*](https://github.com/tryber/sd-09-project-facebook-signup/pull/24)
 
 ##### Block 7: JavaScript ES6 & Unit Tests
-- [x] 7-1: *JavaScript ES6 - let, const, arrow functions and template literals*
+- [x] 7-1: *JavaScript ES6 - let, const, arrow functions & template literals*
 - [x] 7-2: *JavaScript ES6 - Objects*
-- [x] 7-3: *JavaScript unit tests*
-- [x] 7-4: *Testing in small steps*
-- [x] 7-5: [*Project - JavaScript Unit Tests*](https://github.com/tryber/sd-09-project-js-unit-tests/pull/70)
+- [x] 7-3: *JavaScript - unit tests*
+- [x] 7-4: [*Project - JavaScript Unit Tests*](https://github.com/tryber/sd-09-project-js-unit-tests/pull/70)
 ##### Block 8: JavaScript ES6
 - [x] 8-1: *JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort*
-- [ ] 8-2: *JavaScript ES6 - Higher Order Functions - map and reduce*
-- [ ] 8-3: *JavaScript ES6 - spread operator, rest parameter, destructuring and more*
+- [ ] 8-2: *JavaScript ES6 - Higher Order Functions - map & filter*
+- [ ] 8-3: *JavaScript ES6 - Higher Order Functions - reduce*
+- [ ] 8-4: *JavaScript ES6 - spread operator, rest parameter, destructuring & more*
 
 # [...]
