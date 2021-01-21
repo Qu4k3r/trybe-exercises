@@ -12,6 +12,7 @@ const names = [
 function containsA() {
   // escreva seu código aqui
   const arrayOfAs = names.map(word => word.split('').filter(letter => letter === 'a' || letter === 'A'));
+  // const arrayOfAs = names.map(word => word.split('').filter(letter => /a/.test(letter) || /A/.test(letter)));
   return arrayOfAs.reduce((prev, curr) => prev + curr.length, 0)
 }
 
