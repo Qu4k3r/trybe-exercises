@@ -1,0 +1,67 @@
+body {
+
+}
+h1 {
+
+}
+h2 {
+
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+@media screen and (min-width: 470px) {
+  body {
+    background-color: papayawhip;
+    font-size: 23px;
+    margin: 15px;
+  }
+
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid;
+  }
+
+  img {
+    width: 195px;
+  }
+
+  figcaption {
+    font-size: 16px;
+  }
+
+  figure {
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 895px) {
+  img {
+    width: 100%;
+  }
+
+  body {
+    background-color: silver;
+    font-size: 35px;
+  }
+
+  figcaption {
+    font-size: 30px;
+  }
+
+  figure {
+    margin: 45px;
+  }
+}
