@@ -68,6 +68,6 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 ##### Block 9: JavaScript Assync & Promises
 - [ ] 9.1: *Asynchronous JavaScript and Callbacks*
 - [ ] 9.2: *JavaScript Promises*
-- [ ] Project - Shopping cart
+- [ ] 9.3: Project - Shopping cart
 
 # [...]
