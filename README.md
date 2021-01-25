@@ -54,7 +54,6 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 6-3: *CSS Flexbox - Part 1*
 - [x] 6-4: *CSS Flexbox - Part 2*
 - [x] 6-5: [*Project - Facebook signup*](https://github.com/tryber/sd-09-project-facebook-signup/pull/24)
-
 ##### Block 7: JavaScript ES6 & Unit Tests
 - [x] 7-1: *JavaScript ES6 - let, const, arrow functions & template literals*
 - [x] 7-2: *JavaScript ES6 - Objects*
@@ -62,8 +61,13 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 7-4: [*Project - JavaScript Unit Tests*](https://github.com/tryber/sd-09-project-js-unit-tests/pull/70)
 ##### Block 8: JavaScript ES6
 - [x] 8-1: *JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort*
-- [ ] 8-2: *JavaScript ES6 - Higher Order Functions - map & filter*
-- [ ] 8-3: *JavaScript ES6 - Higher Order Functions - reduce*
-- [ ] 8-4: *JavaScript ES6 - spread operator, rest parameter, destructuring & more*
+- [x] 8-2: *JavaScript ES6 - Higher Order Functions - map & filter*
+- [x] 8-3: *JavaScript ES6 - Higher Order Functions - reduce*
+- [x] 8-4: *JavaScript ES6 - spread operator, rest parameter, destructuring & more*
+- [x] 8-5: [*Project - Zoo functions*](https://github.com/tryber/sd-09-project-zoo-functions/pull/17)
+##### Block 9: JavaScript Assync & Promises
+- [ ] 9.1: *Asynchronous JavaScript and Callbacks*
+- [ ] 9.2: *JavaScript Promises*
+- [ ] Project - Shopping cart
 
 # [...]
