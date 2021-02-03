@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best jokes ever</title>
+</head>
+<body>
+  <h1>Get ready for a great joke!</h1>
+  <h2 id="jokeContainer"></h2>
+
+  <script>
+  const API_URL = 'https://icanhazdadjoke.com/';
+  
+  const myObject = {
+    method: 'GET',
+    headers: { 'Accept': 'application/json' }
+  };
+
+  const appendJoke = (joke) => {
+    const jokeParagraph = document.createElement('p');
+    const jokeContainer = document.querySelector('#jokeContainer');
+    jokeParagraph.innerText = joke;
+    jokeContainer.appendChild(jokeParagraph);
+  }
+
+  const fetchJoke = () => {
+    // Adicionar lógica aqui!
+    fetch(API_URL, myObject)
+      .then(response => response.json())
+      .then(data => appendJoke(data.joke))
+  };
+
+  window.onload = () => fetchJoke();
+  </script>
+</body>
+</html>
