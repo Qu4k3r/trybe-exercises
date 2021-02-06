@@ -18,20 +18,26 @@ const getUserName = (userID) => {
 };
 
 describe('Testing possibles return values of function findUserById', () => {
-  it('Returns the correct user ID when called', async () => {
+  it('Returns the correct user ID when called', async (done) => {
+    // teste sem trycatch, porem, nao sera possivel detectar o erro, caso ocorra (nao esquecer de colocar o async e o parametro done). Exemplo:
     expect.assertions(1);
-    const userName = await getUserName(4);
-    expect(userName).toBe('Mark');
+    expect(await getUserName(4)).toBe('Mark');
+    done();
+    // Obs.: sempre usar done em async await
   });
   
-  it('Should return an error msg if the user can\'t be found', async () => {
-    expect.assertions(1);
+  it('Should return an error msg if the user can\'t be found', async (done) => {
+    // expect.assertions(1);
+    // expect(getUserName(2)).rejects.toEqual({ error: 'User with ' + 2 + ' not found.' })
+
     try {
       await getUserName(2);
     }
 
     catch(e) {
       expect(e).toEqual({ error: 'User with 2 not found.' });
+      done();
     }
+    
   });
 });
