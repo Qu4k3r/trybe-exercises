@@ -19,9 +19,9 @@ describe('Testa as possiveis respostas da API', () => {
   });
 
   it('Testa se a resposta foi rejeitada', () => {
-    fetchDogPictures.mockResolvedValue('Request failed');
+    fetchDogPictures.mockRejectedValue('Request failed');
 
-    return expect(fetchDogPictures()).resolves.toEqual('Request failed');
+    return expect(fetchDogPictures()).rejects.toEqual('Request failed');
 
   });
 });
