@@ -4,7 +4,9 @@ let fetchDogPictures = async () => {
   const response = await fetch('https://dog.ceo/api/breeds/image/random');
   const json = await response.json();
 
-  json.status === 'success' ? 'Request success' : 'Request failed';
+  // json.status === 'success' ? 'Request success' : 'Request failed';
+
+  response.ok ? Promise.resolve(json) : Promise.reject(json);
 
 };
 
