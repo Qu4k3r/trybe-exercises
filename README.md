@@ -15,7 +15,7 @@ Introduction-WebDevelopment/block-02/2.1/tryber.js --> here you can find the exe
 
 Do you get it now? If the answer is **NO**, take a look at the *to-do* list below!
 
-## Introduction - Web Development :hourglass_flowing_sand:
+## Introduction - Web Development :heavy_check_mark:
 ##### Block 1: Unix, Bash & Shell Script
 - [x] 1.3: *Unix & Bash - Part 1*
 - [x] 1.4: *Unix & Bash - Part 2*
@@ -66,8 +66,18 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 8-4: *JavaScript ES6 - spread operator, rest parameter, destructuring & more*
 - [x] 8-5: [*Project - Zoo functions*](https://github.com/tryber/sd-09-project-zoo-functions/pull/17)
 ##### Block 9: JavaScript Assync & Promises
-- [ ] 9.1: *Asynchronous JavaScript and Callbacks*
-- [ ] 9.2: *JavaScript Promises*
-- [ ] 9.3: Project - Shopping cart
+- [x] 9.1: *Asynchronous JavaScript and Callbacks*
+- [x] 9.2: *JavaScript Promises*
+- [x] 9.3: [*Project - Shopping cart*](https://github.com/tryber/sd-09-project-shopping-cart/pull/88)
+##### Block 10: Unit Tests with Jest
+- [x] 10.1: *First steps with Jest*
+- [x] 10.2: *Jest - Asynchronous tests* 
+- [x] 10.3: *Jest - Simulating behaviors*
+- [x] 10.4: [*Project - Jest*](https://github.com/tryber/sd-09-project-jest/pull/74)
+## Front-End Development :hourglass_flowing_sand:
+##### Block 11: Introduction - React
+- [ ] 11.1: *'Hello, world!' in React!*
+- [ ] 11.2: *React Components*
+- [ ] 11.3: [*Project - Movie Cards Library*]
 
 # [...]
