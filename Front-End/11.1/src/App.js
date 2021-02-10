@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import { createElement, Component } from 'react';
 import './App.css';
 
-function App() {
+const task = (value) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello World
-        </a>
-      </header>
-    </div>
+    createElement('li', { className: 'list-item', key: value }, value)
   );
+}
+
+const tasks = ['Comer', 'Dormir', 'Repetir'];
+
+class App extends Component {
+  render() {
+    return (
+      createElement('ul', { className: 'my-list' }, tasks.map(item => task(item)))
+    );
+  }
 }
 
 export default App;
