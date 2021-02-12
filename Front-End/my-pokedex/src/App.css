@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('./pikachu.gif');
+  font-family: 'Architects Daughter', cursive;
+}
+
+#root {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+
+.header {
+  align-self: stretch;
+  align-items: center;
+  /* background-color: rgb(42, 157, 143); */
+  color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 7vh;
+}
+
+.myPokedex {
+  align-items: center;
+  display: flex;
+  height: 88vh;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 50%;
+}
+
+.pokemon {
+  align-items: center;
+  background-color: papayawhip;
+  border: 1px solid #264653;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  margin: 1rem 2rem;
+  padding: 1rem;
+  min-width: 13rem;
+  width: 10%;
+}
+
+#image {
+  display: flex;
+  align-self: center;
+}
+
+#name, #type, #weight {
+  line-height: 1.6;
+}
+
+.pokemon:hover {
+  border: 1.4px solid #264653;
+  box-shadow: 0.7rem 0.7rem 0.7rem #264653;
+  cursor: pointer;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.footer {
+  align-self: stretch;
+  align-items: center;
+  /* background-color: #e9c46a; */
+  color:#095f91;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  height: 5vh;
+  justify-content: center;
+}
