@@ -76,8 +76,13 @@ Do you get it now? If the answer is **NO**, take a look at the *to-do* list belo
 - [x] 10.4: [*Project - Jest*](https://github.com/tryber/sd-09-project-jest/pull/74)
 ## Front-End Development :hourglass_flowing_sand:
 ##### Block 11: Introduction - React
-- [ ] 11.1: *'Hello, world!' in React!*
-- [ ] 11.2: *React Components*
-- [ ] 11.3: [*Project - Movie Cards Library*]
+- [x] 11.1: *'Hello, world!' in React!*
+- [x] 11.2: *React Components*
+- [x] 11.3: [*Project - Movie Cards Library*](*https://github.com/tryber/sd-09-project-movie-cards-library/pull/69*)
+#### Block 12: React components with state, events & forms
+- [] 12.1: *Components with state & events*
+- [] 12.2: *Forms with React*
+- [] 12.3: [*Project - Movie Cards Librart Stateful*]
+
 
 # [...]
