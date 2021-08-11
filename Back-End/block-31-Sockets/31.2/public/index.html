@@ -1,0 +1,61 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <button onclick="socketEmit()">PING</button>
+  <div id="welcome-message"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"
+    integrity="sha512-PU5S6BA03fRv1Q5fpwXjg5nlRrgdoguZ74urFInkbABMCENyx5oP3hrDzYMMPh3qdLdknIvrGj3yqZ4JuU7Nag=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+  <script>
+    const socket = io();
+
+    function socketEmit() {
+      socket.emit('ping');
+      return false;
+    }
+
+    socket.on('ola', (message) => {
+      const messageContainer = document.querySelector('#welcome-message');
+
+      messageContainer.innerText = message;
+    });
+
+
+    // pq vem muita coisa repetida?
+    // da pra fazer sem a engine e com a engine ejs ou outras etc
+    // existe alguma preferencia, desvantagem, melhoria de desempenho, boas praticas, clean code etc?
+  </script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Socket.IO - trybe</title>
+</head>
+
+<body>
+  <button id="pingButton">PING</button>
+
+  <ul id="messages"></ul>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"
+  integrity="sha512-PU5S6BA03fRv1Q5fpwXjg5nlRrgdoguZ74urFInkbABMCENyx5oP3hrDzYMMPh3qdLdknIvrGj3yqZ4JuU7Nag=="
+  crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+
+<script src="./js/ping.js"></script>
+
+</html>
